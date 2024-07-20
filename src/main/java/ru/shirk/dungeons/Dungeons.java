@@ -47,17 +47,18 @@ public final class Dungeons extends JavaPlugin {
             if (!(new File(this.getDataFolder(), "settings.yml")).exists()) {
                 getConfigurationManager().createFile("settings.yml");
             }
-
             if (!(new File(this.getDataFolder(), "lang.yml")).exists()) {
                 getConfigurationManager().createFile("lang.yml");
             }
-
             if (!(new File(this.getDataFolder(), "dungeons.yml")).exists()) {
                 getConfigurationManager().createFile("dungeons.yml");
             }
-
             if (!(new File(this.getDataFolder(), "loot.yml")).exists()) {
                 getConfigurationManager().createFile("loot.yml");
+            }
+            File dir = new File(this.getDataFolder(),"/schematics");
+            if(!dir.exists()) {
+                dir.mkdir();
             }
         } catch (Exception e) {
             this.getLogger().warning(e.getMessage());

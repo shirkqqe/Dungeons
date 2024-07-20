@@ -60,6 +60,7 @@ public class GenerateDunges implements CommandExecutor {
                 }
 
                 Dungeons.getInstance().getSLF4JLogger().info("Все данжи успешно сгенерированы за {} мс.", System.currentTimeMillis() - start);
+                Dungeons.getConfigurationManager().reloadConfigs();
             } catch (Exception e) {
                 sender.sendMessage(e.getMessage());
             }
