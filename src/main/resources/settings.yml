@@ -1,0 +1,24 @@
+item:
+  name: "&dУниверсальный ключ"
+  lore:
+    - ""
+    - "&fИм можно воспользоваться для открытия"
+    - "&fуникального данжа."
+    - ""
+location:
+  radius: 3000
+  world: world
+  blockList:
+    - AIR
+    - WATER
+    - LAVA
+    - OAK_LEAVES
+    - DARK_OAK_LEAVES
+    - ACACIA_LEAVES
+    - BIRCH_LEAVES
+    - JUNGLE_LEAVES
+    - SPRUCE_LEAVES
+region:
+  allow-flags:
+    - PVP
+  deny-flags: []

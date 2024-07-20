@@ -1,0 +1,22 @@
+loot:
+  - ==: ru.shirk.dungeons.loot.Item
+    amount: 1
+    chance: 50
+    material: STONE
+    lore:
+      - pidor
+    name: STONE
+    enchantments:
+      ARROW_DAMAGE: 1
+  - ==: ru.shirk.dungeons.loot.Item
+    amount: 1
+    chance: 50
+    material: DIAMOND_SWORD
+    lore:
+      - ''
+      - ''
+      - ''
+      - ''
+    name: 'Блатной меч'
+    enchantments:
+      DAMAGE_ALL: 5

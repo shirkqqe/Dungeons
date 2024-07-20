@@ -1,0 +1,11 @@
+dungeons:
+  - ==: ru.shirk.dungeons.dungeons.Dung
+    world: world
+    x: 1234.0
+    y: 100.0
+    z: 1234.0
+  - ==: ru.shirk.dungeons.dungeons.Dung
+    world: world
+    x: 1234.0
+    y: 100.0
+    z: 1235.0
