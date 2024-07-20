@@ -6,3 +6,12 @@ depend: [WorldEdit, WorldGuard]
 authors: [shirkqqe]
 description: Dungeons
 website: https://github.com/shirkqqe
+
+commands:
+  dungeons:
+    description: ""
+  generatedungeons:
+    description: ""
+permissions:
+  dungeons.admin:
+    default: op
