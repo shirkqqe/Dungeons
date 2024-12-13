@@ -4,7 +4,7 @@ loot:
     chance: 50
     material: STONE
     lore:
-      - pidor
+      - 123
     name: STONE
     enchantments:
       ARROW_DAMAGE: 1
